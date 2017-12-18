@@ -1,0 +1,7 @@
+Linna nimi: Tallinn
+Linna koordinaadid: 59.4372,24.7454
+Ilm järgmised kolm päeva:
+20.12.2017: miinimum temperatuur = -1.91, maksimum temperatuur = 3.1
+21.12.2017: miinimum temperatuur = 3.47, maksimum temperatuur = 3.47
+19.12.2017: miinimum temperatuur = -2.24, maksimum temperatuur = 2.75
+Praegune temperatuur: 0.29

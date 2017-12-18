@@ -1,7 +1,7 @@
 package com.weather.repositories;
 
 import org.json.*;
-import com.weather.WeatherRequest;
+import com.weather.requests.WeatherRequest;
 import com.weather.reports.GeoWeatherReport;
 
 import java.util.HashMap;

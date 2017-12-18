@@ -1,4 +1,6 @@
-package com.weather;
+package com.weather.requests;
+
+import utils.FileHandler;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -93,7 +95,7 @@ public class WeatherRequest {
     public static WeatherRequest requestFromConsole() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter city with country code (Tallinn,EE): ");
+        System.out.println("Sisesta linn koos riigi koodiga (Tallinn,EE): ");
         String input = scanner.nextLine();
 
         String[] parts = input.split(",");

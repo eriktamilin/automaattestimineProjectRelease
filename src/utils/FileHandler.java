@@ -1,4 +1,4 @@
-package com.weather;
+package utils;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

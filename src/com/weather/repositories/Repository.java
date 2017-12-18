@@ -1,6 +1,6 @@
 package com.weather.repositories;
 
-import com.weather.WeatherRequest;
+import com.weather.requests.WeatherRequest;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -34,11 +34,6 @@ abstract public class Repository {
         return this.url + resource + "?" + query;
     }
 
-    protected String readUrl(String resource) throws Exception {
-        Map<String, String> params = new HashMap<String, String>();
-
-        return this.readUrl(resource, params);
-    }
 
     protected String readUrl(String resource, Map<String, String> params) throws Exception {
         BufferedReader reader = null;

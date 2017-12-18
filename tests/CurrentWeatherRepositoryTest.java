@@ -1,10 +1,7 @@
-import com.weather.FileHandler;
-import com.weather.WeatherRequest;
+import com.weather.requests.WeatherRequest;
 import com.weather.reports.CurrentWeatherReport;
 import com.weather.repositories.CurrentWeatherRepository;
 import org.junit.jupiter.api.Test;
-
-import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

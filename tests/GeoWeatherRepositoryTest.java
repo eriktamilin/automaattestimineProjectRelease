@@ -1,4 +1,4 @@
-import com.weather.WeatherRequest;
+import com.weather.requests.WeatherRequest;
 import com.weather.reports.GeoWeatherReport;
 import com.weather.repositories.GeoWeatherRepository;
 import org.junit.jupiter.api.Test;

@@ -1,19 +1,17 @@
-import com.weather.FileHandler;
-import com.weather.WeatherRequest;
-import com.weather.reports.CurrentWeatherReport;
+import com.weather.requests.WeatherRequest;
 import com.weather.reports.ThreeDayWeatherReport;
-import com.weather.repositories.CurrentWeatherRepository;
 import com.weather.repositories.ThreeDayWeatherRepository;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Created by Erik Tamilin on 17.12.2017.
+ */
 class WeatherRequestTest {
 
     @Test
